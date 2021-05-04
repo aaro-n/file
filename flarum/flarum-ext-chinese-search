@@ -1,0 +1,27 @@
+project.name = flarum
+server.index = xunsearch.itansuo.info:8383
+server.search = xunsearch.itansuo.info:8384
+
+[id]
+type = id
+
+[discId]
+index = self
+
+[title]
+type = title
+
+[content]
+type = body
+
+[time]
+type = numeric
+index = self
+
+[discTime]
+type = numeric
+index = self
+
+[count]
+type = numeric
+index = self
